@@ -1,0 +1,46 @@
+.infos-container {
+  background-color: #d0ebf7;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.info-title h4 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.info-title svg {
+  width: 20px;
+  height: 20px;
+}
+
+.info-description {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .infos-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .infos-container {
+    width: 30%;
+  }
+}

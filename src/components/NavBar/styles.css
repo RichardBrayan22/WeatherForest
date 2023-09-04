@@ -1,0 +1,35 @@
+.main-nav {
+  padding-left: 40px;
+  min-height: 70px;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.icon-linkedin svg {
+  color: #0a66c2;
+}
+
+.icon-git svg {
+  color: #000;
+}
+
+.made {
+  color: #02112b;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name {
+  color: #02112b;
+}
