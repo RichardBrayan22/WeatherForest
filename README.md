@@ -6,7 +6,7 @@ Aplicação de previsão do tempo. Tem como principal objetivo atraves de pesqui
 Utilizando React junto com a integração da API do OpenWeather
 
 ## Quick menu:
-<a href="https://theultimateapichallenge.com/challenges/weather-typescript-api" target="_blank" rel="noopener"
+<a href="https://weatherprojectforest.netlify.app" target="_blank" rel="noopener"
     style="padding:0.35rem 0.7rem;
     color: black;
     background: #BDFFF3;
