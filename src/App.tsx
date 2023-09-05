@@ -30,6 +30,7 @@ const App = () => {
       .then((response) => {
         console.log(response.data);
         setForecast(response.data);
+        toast.success(`City Found`);
       })
       .catch((error) => {
         console.log(error);
