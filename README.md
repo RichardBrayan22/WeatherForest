@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Weather Forescast
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RichardBrayan22/WeatherForest/blob/main/LICENSE) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
+Aplicação de previsão do tempo. Tem como principal objetivo atraves de pesquisa de nomes de cidades, retornar a previsao do tempo da cidade informada, junto ao forecast do dia alem de informações adicionais(Atualização da API a cada 3 Horas). 
+Utilizando React junto com a integração da API do OpenWeather
 
-## Available Scripts
+## Quick menu:
+<a href="https://weatherprojectforest.netlify.app" target="_blank" rel="noopener"
+    style="padding:0.35rem 0.7rem;
+    color: black;
+    background: #BDFFF3;
+    border-radius:10px;
+    font-size:0.85rem;
+    font-weight:600;">Project view</a> |
+<a href="https://openweathermap.org/api" target="_blank" rel="noopener"
+    style="padding:0.35rem 0.7rem;
+    color: black;
+    background: #F1DEDE;
+    border-radius:10px;
+    font-size:0.85rem;
+    font-weight:600;">Official API Docs</a>
 
-In the project directory, you can run:
+## Layout web
+![Web](https://github.com/RichardBrayan22/assets/blob/main/WeatherForecast/Web.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Tecnologias utilizadas 
+## Front end
+- HTML / CSS / TypeScript
+- React
+- Bootstrap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Integração
+- API do OpenWeather
+- Netlify
 
-### `npm test`
+# Como executar o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Front end web
+Pré-requisitos: npm / yarn | Utilizado NODE: 18.17.0
 
-### `npm run build`
+## API Calls
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Observação: a API OpenWeather está usando uma chave de API. No repositório que você preenche, encontre um arquivo .env e colar o valor da sua chave API (que você pode obter ao se registrar no site da API OpenWeather).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# clonar repositório
+git clone https://github.com/RichardBrayan22/WeatherForest.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# entrar na pasta do projeto front end web
+cd front-web
 
-### `npm run eject`
+# instalar dependências
+yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# executar o projeto
+yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Autor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Richard Brayan Mariotto Floresto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://www.linkedin.com/in/richard-brayan/
