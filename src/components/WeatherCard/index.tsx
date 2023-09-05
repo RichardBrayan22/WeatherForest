@@ -100,7 +100,7 @@ const WeatherCard = ({ data }: Props) => {
           <WeatherInfos
             icon="pop"
             title="Precipitation"
-            info={`${Math.round(today.pop * 1000)}%`}
+            info={`${Math.round(today.pop * 100)}%`}
             description={`${getPop(today.pop)}, clouds at ${today.clouds.all}`}
           />
           {/** Pressure */}
